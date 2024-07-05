@@ -1,0 +1,131 @@
+.image-contact{
+    float: right;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    height: 60vh;
+    width: 50%;
+    filter: drop-shadow(8px 8px 8px crimson); 
+}
+.undraw-mail{
+    animation: tilt-shaking 2s infinite;
+}
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(0deg); }
+    50% { transform: rotate(-5deg); }
+    75% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+  }
+.h1-feel{
+    text-align: start;
+    font-size: 70px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+
+}
+.formik{
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   margin: 10px auto;
+   padding: 25px 20px 25px 20px;
+   text-align: center;
+   border: 8px outset white;
+   width: 30%;
+   height: 53vh;
+   background-image: linear-gradient(to right, #f61a6f,blueviolet);
+}
+.connect-1{
+    color: crimson;
+    font-size:50px;
+}
+.name-1{
+    font-size: 40px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+.name-2{
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    border: 5px outset black;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.name-2:hover{
+    box-shadow: 0 8px 16px 0 black;
+}
+.label-name{
+    font-size: 40px;
+    vertical-align: top;
+}
+.text{
+    padding: 20px 10px 20px 10px ;
+    font-size: 30px;
+    border: 4px outset black !important;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+.send{
+    font-size: 30px;
+    border: 5px outset black;
+    border-radius: 60px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+.send:hover{
+    box-shadow: 0 8px 16px 0 black;
+}
+.phone{
+    font-size: 30px;
+    color:black; 
+    margin: 30px;
+}
+.number{
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.align{
+    text-align: center;
+    border: 8px inset white;
+    padding: 10px 10px 10px 10px;
+    float: right;
+    height: 200px;
+    margin: 45px;
+    background-image: linear-gradient(to left , #f61a6f,blueviolet);
+}
+.formik:hover{
+    box-shadow: 0  5px 8px 0 white;
+}
+.align:hover{
+    box-shadow: 0  5px 8px 0 white;
+   
+}
+.mail{
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+.size{
+    font-size: 35px;
+    animation: tilt-shaking 2s infinite;
+  
+}
+.undraw-mail{
+    float: left;
+    margin:7.5rem ;
+    filter: drop-shadow(6px 6px 6px crimson);
+}
+.last-line{
+    float: right;
+    margin: 70px auto ;
+}
+
+

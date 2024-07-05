@@ -1,0 +1,42 @@
+.tron{
+    color: crimson;
+}
+.h1-exp{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 80px;
+}
+.exp-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
+}
+.image-bajaj{
+    height: 200px;
+    width: 358px;
+}
+.exp-card{
+    height: 650px;
+    width: 370px;
+    border: 6px solid white;
+    justify-content: space-between;
+    text-align: center; 
+}
+.exp-card:hover{
+    box-shadow: 0 8px 16px 0 darkgray;
+}
+.time{
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.worked{
+    color: crimson;
+}
+.h2-exp{
+    font-size: 40px;
+}
+.when{
+    color: crimson;
+}

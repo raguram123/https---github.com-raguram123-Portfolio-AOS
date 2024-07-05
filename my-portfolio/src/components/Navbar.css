@@ -1,0 +1,41 @@
+.nav{
+    position: sticky !important;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 145px;
+    max-width:100%;
+    background-color: black;
+    opacity: 0.93;
+    color: white;
+    font-weight: 800;
+    z-index: 1; 
+    filter: brightness(100px);
+}
+.nav-left{
+   display: flex;
+   align-items: center;
+   font-size: 30px;
+   flex: 0.8;
+}
+.nav-right{
+    display: flex;
+    flex: 0.2;
+    justify-content: center;
+    margin: 40px;
+    align-items: center;
+    color:white;  
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+}
+.nav-right:hover{
+    color: crimson;
+   
+    
+}
+.with{
+    color: crimson;
+}

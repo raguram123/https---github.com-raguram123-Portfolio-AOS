@@ -1,0 +1,23 @@
+.image-card{
+    margin: 5px;
+    height: 220px;
+    width: 350px;
+    border: 6px solid white;  
+}
+.center{
+    text-align: center;
+    font-size: 20px;
+}
+.image-card:hover{
+    box-shadow: 0 8px 16px 0 darkgray;
+    height: 300px;
+    width: 450px;
+    transition-duration: 1.09s;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+}

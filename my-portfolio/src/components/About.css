@@ -1,0 +1,60 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.display{
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align:center;
+    width: 60%;
+}
+.here{
+    color:crimson;  
+}
+.first-p{
+    margin: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.education{
+    margin: 10px;
+    font-size: 40px;
+    color: crimson;
+}
+.second-p{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.third-p{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.int-1{
+    font-size: 35px;
+}
+.int{
+    padding: 30px;
+}
+.int-2{
+    color: crimson;
+    font-weight: 600;
+    font-size: 30px;
+}
+.down{
+    font-size: 50px;
+    border: 4px solid white;
+    border-radius: 100px;
+    margin: 10px;
+    animation: wave 2.5s infinite;
+}
+@keyframes wave {
+    0%,40%,100% {
+      transform: translateY(14px)
+    }
+    20% {
+      transform: translateY(-30px)
+    }
+}

@@ -1,0 +1,38 @@
+.h2{
+    text-align: center;
+    font-size: 45px;
+    color:crimson;
+}
+.h1-skill{
+   color: crimson;
+   text-align:center;
+   font-size: 40px;
+}
+.image-pot{
+    height: 140px;
+    width: 236px;
+}
+.container-skills{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+}
+.skill-card{
+    height: 200px;
+    width: 240px;
+    border: 5px solid white;
+    text-align: center;
+
+}
+.skill-card:hover{
+    box-shadow: 0 8px 16px 0 darkgrey;
+    animation: forwards;
+    
+    cursor: pointer;
+}
+.icon{
+    font-size: 90px;
+    margin: 20px;
+    color: crimson;
+}

@@ -1,0 +1,49 @@
+.pro-h1{
+    text-align: center;
+    font-size: 35px;
+    color: crimson;
+}
+.pro-h3{
+    text-align: center;
+}
+.project-container{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ gap: 40px;
+ 
+}
+.project-card{
+  height: 727px;
+  width: 335px;
+  margin-top: 20px;
+  border: 3px solid white;
+  text-align: center;
+
+}
+.project-card:hover{
+    box-shadow: 0 13px 13px 0 darkgray;
+
+}
+.image-pro{
+    height: 200px;
+    width: 329px;
+}
+.button-1{
+    margin: 20px;
+    font-size: 25px;
+    border-radius: 40px;
+    margin-right: 25px;
+    border: 3px solid white;  
+    background-color: black; 
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+.paragraph{
+    font-size: 29px;
+    color: darkgrey;
+}
+.which{
+    color: white;
+}
